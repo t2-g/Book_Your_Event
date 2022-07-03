@@ -45,3 +45,14 @@ const showLatestEvent = (latestEvent, id) => {
     e.preventDefault()
     addNewEvent()
   })
+
+
+  window.onscroll = () =>  {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nav.style.background = 'var(--tertiary-color)';
+      nav.style.boxShadow = '0 10px 42px rgba(25,17,34,.1)';
+    } else {
+      nav.style.background = 'none';
+      nav.style.boxShadow = 'none';
+    }
+  }
