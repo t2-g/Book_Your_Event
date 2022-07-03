@@ -44,29 +44,28 @@
       </section>
     </main>
 
-    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js"></script>
-    <!-- // Import the functions you need from the SDKs you need //import {
-    //initializeApp } from
-    "https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js"; // TODO: Add
-    SDKs for Firebase products that you want to use //
-    https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+    
     <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyDXqeezkKggh1XjQnffRH-cVaAUCDlU4R0",
-        authDomain: "book-your-event-9c050.firebaseapp.com",
-        projectId: "book-your-event-9c050",
-        storageBucket: "book-your-event-9c050.appspot.com",
-        messagingSenderId: "974968694339",
-        appId: "1:974968694339:web:0c1a76d526b4de9a9196f6",
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      const db = firebase.firestore();
-    </script>
+       
+        var firebaseConfig = {
+            apiKey: "AIzaSyDXqeezkKggh1XjQnffRH-cVaAUCDlU4R0",
+            authDomain: "book-your-event-9c050.firebaseapp.com",
+            databaseURL: "https://book-your-event-9c050-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "book-your-event-9c050",
+            storageBucket: "book-your-event-9c050.appspot.com",
+            messagingSenderId: "974968694339",
+            appId: "1:974968694339:web:6ffd22ac71eb26619196f6"
+          };
+      
+        // Initialize Firebase
+        
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+      </script>
 
-    <script src="db.js"></script>
-    <script src="app.js"></script>
+    <script src="db.js" type="text/javascript"  ></script>
+    <script src="app.js" type="text/javascript"  ></script>
   </body>
 </html>
