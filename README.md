@@ -1,12 +1,13 @@
 # Book_Your_Event - Full Stack Web Development 
-<href src="https://t2-g.github.io/Book_Your_Event/"> 
-## Tech Stack:
-###Frontend : HTML CSS JS
-###Backend : Firebase
-
 
 Hello everyone,
 This is a fully functional application to book and track events. It allows the user to add events , book events and keep track of ongoing events.
+
+Link to website ---->[Website](https://t2-g.github.io/Book_Your_Event/"Website") 
+
+## Tech Stack:
+  1. Frontend : HTML CSS JS
+  2. Backend : Firebase
 
 ## Features or Modules:
 1. We can create an event and store it to Firestore.
