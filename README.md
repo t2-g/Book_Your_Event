@@ -23,6 +23,8 @@ This is a fully functional application to book and track events. It allows the u
   
 ### New Event page
 <img src="screenshots/WhatsApp Image 2022-07-03 at 11.06.35 PM.jpeg" width="750">
-
+  
+##Firestore Database
+![image](https://user-images.githubusercontent.com/89742029/177051297-f173e665-8013-4713-89d8-6a4f122e1a69.png)
 
 This project is inspired by an article on freecodecamp.
