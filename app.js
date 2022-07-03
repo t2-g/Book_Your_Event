@@ -24,3 +24,24 @@ const showEvents = (event, id) => {
         `
   eventsContainer.innerHTML += output
 }
+
+
+const showLatestEvent = (latestEvent, id) => {
+  
+    const {name, attendee, status, description, booked} = latestEvent 
+    // Get the first event
+      welcomeEvent.innerHTML = `
+      <h1>${name}</h1>
+      <p>${description.length >= 100 ? `${description.substring(0, 100)}...` : description}</p>
+      <div>
+        <span>Attendees: ${attendee - booked}</span>
+        <span>Status: ${status === 0 ? 'free': 'paid'}</span>
+       </div>
+       <button onclick="bookEvent(${booked} ,'${id}')" class="btn btn-tertiary">Book</button>
+      `
+  }
+  
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    addNewEvent()
+  })
