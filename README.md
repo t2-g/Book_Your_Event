@@ -3,7 +3,7 @@
 Hello everyone,
 This is a fully functional application to book and track events. It allows the user to add events , book events and keep track of ongoing events.
 
-Link to website ---->[Website](https://t2-g.github.io/Book_Your_Event/"Website") 
+Link to website ---->[Website](https://t2-g.github.io/Book_Your_Event/) 
 
 ## Tech Stack:
   1. Frontend : HTML CSS JS
